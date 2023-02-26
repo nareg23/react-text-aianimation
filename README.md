@@ -31,7 +31,7 @@ export default function App() {
 | ----------- | ----------- | --------|
 | Header | Title |
 | text (required) | string | `text={"terminator"}` |      
-| lowerCase | string | `lowerCase` |
+| lowerCase | boolean | `lowerCase` |
 | speed | number | `speed={50}` |
 | styles | object |`style={{ color:'#fff' }} `|
 | loops | Enum 1 , 2 or 3 | `loops={3}`|
