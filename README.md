@@ -3,6 +3,10 @@
  - small library for a cool text animation with no dependencies.
  - type safe.
  - highly customizable.
+ 
+ # Example
+ 
+ [Demo](https://codesandbox.io/s/optimistic-thunder-h8g1sk?file=/src/App.tsx)
 
 ## Import
 
