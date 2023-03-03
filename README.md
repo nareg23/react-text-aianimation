@@ -3,6 +3,10 @@
  - small library for a cool text animation with no dependencies.
  - type safe.
  - highly customizable.
+ 
+ # Example
+ 
+ [Demo](https://codesandbox.io/s/optimistic-thunder-h8g1sk?file=/src/App.tsx)
 
 ## Import
 
@@ -31,7 +35,7 @@ export default function App() {
 | ----------- | ----------- | --------|
 | Header | Title |
 | text (required) | string | `text={"terminator"}` |      
-| lowerCase | string | `lowerCase` |
+| lowerCase | boolean | `lowerCase` |
 | speed | number | `speed={50}` |
 | styles | object |`style={{ color:'#fff' }} `|
 | loops | Enum 1 , 2 or 3 | `loops={3}`|
