@@ -3,12 +3,17 @@
   "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "type": "module",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "react-app-polyfill": "^1.0.0"
+    "react-app-polyfill": "^1.0.0",
+    "react-text-aianimation": "^0.3.0"
   },
   "alias": {
     "react": "../node_modules/react",
@@ -18,7 +23,7 @@
   "devDependencies": {
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.8.4",
-    "parcel": "^1.12.3",
+    "parcel": "^2.0.0-beta.1",
     "typescript": "^3.4.5"
   }
 }
